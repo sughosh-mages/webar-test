@@ -1,0 +1,156 @@
+.nav {
+  display: flex;
+  background-color: #24262b;
+  padding: 1% 5%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.links {
+  text-decoration: none;
+}
+
+.auth {
+  display: flex;
+  flex-direction: row;
+}
+
+.main {
+  background-color: black;
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.btn-2 {
+  border-radius: 50px;
+  margin: 27px 10px;
+  padding: 15px 35px;
+  background-color: #34ffc8;
+  border: none;
+}
+
+.btn-1 {
+  border-radius: 50px;
+  margin: 27px 10px;
+  padding: 15px 35px;
+  background-color: white;
+  border: none;
+}
+
+.bgimage {
+  padding: 5.4% 5%;
+  margin: 0 25%;
+  align-items: center;
+  justify-content: center;
+}
+
+.loginbody {
+  background-color: #24262b;
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.loginpannel {
+  background-color: #373737;
+  border-radius: 30px;
+  margin: 2% 30%;
+  padding: 3% 3%;
+}
+
+.effeectpagebg {
+  background-color: #373737;
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 100vh;
+  overflow: auto;
+}
+
+.effectbutton-1 {
+  border-radius: 50px;
+  margin: 27px 10px;
+  padding: 15px 35px;
+  width: 145px;
+  background-color: #34ffc8;
+  border: none;
+  align-items: center;
+}
+
+.effectbutton-2 {
+  border-radius: 50px;
+  margin: 27px 10px;
+  padding: 15px 35px;
+  width: 145px;
+  background-color: white;
+  border: none;
+  align-items: center;
+}
+
+.effectbuttons {
+  padding: 21.4% 17%;
+  display: flex;
+  flex-direction: row;
+}
+
+/* @media only screen and (max-width: 600px){
+  .effectbutton-1{
+    background-color: red;
+  }
+  use to make responsive for phone
+} */ 
+
+.sidepanel {
+  padding: 7%;
+  display: flex;
+  flex-direction: column;
+}
+
+.categorybutton {
+  margin: 5%;
+  border: none;
+  border-radius: 20px;
+  margin-right: 30px;
+}
+
+.effectborder {
+  border: solid;
+  border-color: white;
+  height: 100px;
+  width: 800px;
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 10px;
+}
+
+.effecticons {
+  margin-left: 450px;
+  margin-top: 25px;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: -5px;
+  left: 105%;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
